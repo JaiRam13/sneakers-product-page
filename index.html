@@ -4,41 +4,27 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- displays site properly based on user's device -->
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
     href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght,YOPQ@100..900,300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
     rel="stylesheet">
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/queries.css">
 
-  <title>Frontend Mentor | E-commerce product page</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution {
-      font-size: 0.6875rem;
-      text-align: center;
-    }
-
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
-  </style>
+  <title>E-commerce product page</title>
 </head>
 
 <body>
   <header>
     <div class="container">
-
       <nav class="navigation-container">
         <div class="nav-left">
           <button class="menu invisible-menu js-toggle-button">
-            <img src="images/icon-menu.svg" alt="">
+            <img src="images/icon-menu.svg" alt="hamburger icon">
           </button>
-          <img class="sneakers-logo" src="images/logo.svg" alt="">
+          <img class="sneakers-logo" src="images/logo.svg" alt="sneakers logo">
           <div class="nav-left-text-flex js-visible">
             <p class="nav-items collections"> Collections</p>
             <p class="nav-items men">Men</p>
@@ -49,7 +35,7 @@
         </div>
         <div class="nav-right">
           <div class="cart-flex">
-            <img class="cart-logo js-cart-logo" src="images/icon-cart.svg" alt="">
+            <img class="cart-logo js-cart-logo" src="images/icon-cart.svg" alt="cart-icon">
             <div class="cart-details js-cart-details">
               <p class="cart-name">Cart</p>
               <div class="cart-info js-cart-info">
@@ -57,25 +43,30 @@
               </div>
             </div>
           </div>
-          <img class="profile-image" src="images/image-avatar.png" alt="">
+          <img class="profile-image" src="images/image-avatar.png" alt="profile-avatar-icon">
         </div>
       </nav>
-      <div>
+    </div>
   </header>
   <main>
     <div class="container">
       <div class="main-flex">
         <div class="image-container">
           <div class="main-image-container">
-            <img class="prev-icon prev-main" src="images/icon-previous.svg" alt="">
-            <img class="main-image js-main-image-pop" id="js-main-image" src="images/image-product-1.jpg" alt="">
-            <img class="next-icon next-main" src="images/icon-next.svg" alt="">
+            <img class="prev-icon prev-main" src="images/icon-previous.svg" alt="previous-icon">
+            <img class="main-image js-main-image-pop" id="js-main-image" src="images/image-product-1.jpg"
+              alt="sneakers-image">
+            <img class="next-icon next-main" src="images/icon-next.svg" alt="next-icon">
           </div>
           <div class="small-image">
-            <img class="small-icons js-small-icons" src="images/image-product-1-thumbnail.jpg" alt="">
-            <img class="small-icons js-small-icons" src="images/image-product-2-thumbnail.jpg" alt="">
-            <img class="small-icons js-small-icons" src="images/image-product-3-thumbnail.jpg" alt="">
-            <img class="small-icons js-small-icons" src="images/image-product-4-thumbnail.jpg" alt="">
+            <img class="small-icons js-small-icons" src="images/image-product-1-thumbnail.jpg"
+              alt="sneakers-image-thumbnail-1">
+            <img class="small-icons js-small-icons" src="images/image-product-2-thumbnail.jpg"
+              alt="sneakers-image-thumbnail-2">
+            <img class="small-icons js-small-icons" src="images/image-product-3-thumbnail.jpg"
+              alt="sneakers-image-thumbnail-3">
+            <img class="small-icons js-small-icons" src="images/image-product-4-thumbnail.jpg"
+              alt="sneakers-image-thumbnail-4">
           </div>
         </div>
         <div class="products-text-flex">
@@ -92,34 +83,29 @@
           <p class="original-price">$250.00 </p>
           <div class="rigt-bottom-flex">
             <div class="btn select-quantity-flex">
-              <span><img class="minus js-minus" src="images/icon-minus.svg" alt=""></span>
+              <span><img class="minus js-minus" src="images/icon-minus.svg" alt="minus icon"></span>
               <span class="quantity js-quantity">0</span>
-              <span><img class="plus js-plus" src="images/icon-plus.svg" alt=""></span>
+              <span><img class="plus js-plus" src="images/icon-plus.svg" alt="+ icon"></span>
             </div>
             <div class="btn add-to-cart-flex js-add-to-cart">
-              <img class="add-to-cart-image" src="images/icon-cart-black.svg" alt="">
+              <img class="add-to-cart-image" src="images/icon-cart-black.svg" alt="add-to-cart-icon">
               <p class="add-to-cart-text">Add to cart</p>
             </div>
           </div>
         </div>
       </div>
-  </main>
-
-  <footer class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
-    Coded by <a href="#">Your Name Here</a>.
-  </footer>
-  </div>
-  <div class="lightbox">
-    <div class="light-box-image-flex">
-      <img class="prev-icon js-prev-icon" src="images/icon-previous.svg" alt="">
-      <img class="close" src="images/icon-close.svg" alt="">
-      <img class="lightbox-img" src="">
-      <img class="next-icon js-next-icon" src="images/icon-next.svg" alt="">
     </div>
-  </div>
+    <div class="lightbox">
+      <div class="light-box-image-flex">
+        <img class="prev-icon js-prev-icon" src="images/icon-previous.svg" alt="previous icon">
+        <img class="close" src="images/icon-close.svg" alt="close-icon">
+        <img class="lightbox-img" src="" alt="light-box-sneakers-image">
+        <img class="next-icon js-next-icon" src="images/icon-next.svg" alt="next icon">
+      </div>
+    </div>
+  </main>
   <script src="js/menu.js"></script>
-  </div>
+
 </body>
 
 </html>
