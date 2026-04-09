@@ -6,7 +6,7 @@
 
 html {
     font-size: 62.5%;
-    font-family: Kumbh Sans;
+    font-family: 'Kumbh Sans';
     background-color: var(--Black-background);
 }
 
@@ -34,7 +34,7 @@ h2 {
     --Grayish-blue: hsl(220, 14%, 75%);
     --Light-grayish-blue: hsl(223, 64%, 98%);
     --White: hsl(0, 0%, 100%);
-    --Black-background: rgba(256, 256, 256, 0.3);
+    --Black-background: rgba(255, 255, 255, 0.3);
 }
 
 .navigation-container {
@@ -333,7 +333,6 @@ header {
 
 .lightbox-img {
     position: relative;
-    anchor-name: light;
     width: 40%;
     border-radius: 15px;
 }
